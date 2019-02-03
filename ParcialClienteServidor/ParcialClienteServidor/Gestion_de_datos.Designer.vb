@@ -35,14 +35,14 @@ Partial Class Gestion_de_datos
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Gestion de Datos"
         '
-        'Form1
+        'Gestion_de_datos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(768, 530)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "Gestion_de_datos"
+        Me.Text = "Gestion de Datos"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
