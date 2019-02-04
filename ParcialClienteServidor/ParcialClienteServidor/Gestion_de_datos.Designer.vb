@@ -29,13 +29,14 @@ Partial Class Gestion_de_datos
         Me.txtn2 = New System.Windows.Forms.TextBox()
         Me.txtRes = New System.Windows.Forms.TextBox()
         Me.btnSuma = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(218, 37)
+        Me.Label1.Location = New System.Drawing.Point(49, 22)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(194, 25)
         Me.Label1.TabIndex = 0
@@ -75,25 +76,35 @@ Partial Class Gestion_de_datos
         '
         'txtRes
         '
-        Me.txtRes.Location = New System.Drawing.Point(143, 168)
+        Me.txtRes.Location = New System.Drawing.Point(143, 194)
         Me.txtRes.Name = "txtRes"
         Me.txtRes.Size = New System.Drawing.Size(100, 20)
         Me.txtRes.TabIndex = 5
         '
         'btnSuma
         '
-        Me.btnSuma.Location = New System.Drawing.Point(46, 165)
+        Me.btnSuma.Location = New System.Drawing.Point(78, 165)
         Me.btnSuma.Name = "btnSuma"
         Me.btnSuma.Size = New System.Drawing.Size(75, 23)
         Me.btnSuma.TabIndex = 6
         Me.btnSuma.Text = "Suma"
         Me.btnSuma.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(247, 165)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 7
+        Me.Button1.Text = "Resta"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Gestion_de_datos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(768, 530)
+        Me.ClientSize = New System.Drawing.Size(368, 249)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnSuma)
         Me.Controls.Add(Me.txtRes)
         Me.Controls.Add(Me.txtn2)
@@ -115,4 +126,5 @@ Partial Class Gestion_de_datos
     Friend WithEvents txtn2 As TextBox
     Friend WithEvents txtRes As TextBox
     Friend WithEvents btnSuma As Button
+    Friend WithEvents Button1 As Button
 End Class
