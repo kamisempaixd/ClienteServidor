@@ -28,7 +28,7 @@ Partial Class Gestion_de_datos
         Me.txtn1 = New System.Windows.Forms.TextBox()
         Me.txtn2 = New System.Windows.Forms.TextBox()
         Me.txtRes = New System.Windows.Forms.TextBox()
-        Me.btnOperacion = New System.Windows.Forms.Button()
+        Me.btnSuma = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -80,21 +80,21 @@ Partial Class Gestion_de_datos
         Me.txtRes.Size = New System.Drawing.Size(100, 20)
         Me.txtRes.TabIndex = 5
         '
-        'btnOperacion
+        'btnSuma
         '
-        Me.btnOperacion.Location = New System.Drawing.Point(46, 165)
-        Me.btnOperacion.Name = "btnOperacion"
-        Me.btnOperacion.Size = New System.Drawing.Size(75, 23)
-        Me.btnOperacion.TabIndex = 6
-        Me.btnOperacion.Text = "Operacion"
-        Me.btnOperacion.UseVisualStyleBackColor = True
+        Me.btnSuma.Location = New System.Drawing.Point(46, 165)
+        Me.btnSuma.Name = "btnSuma"
+        Me.btnSuma.Size = New System.Drawing.Size(75, 23)
+        Me.btnSuma.TabIndex = 6
+        Me.btnSuma.Text = "Suma"
+        Me.btnSuma.UseVisualStyleBackColor = True
         '
         'Gestion_de_datos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(768, 530)
-        Me.Controls.Add(Me.btnOperacion)
+        Me.Controls.Add(Me.btnSuma)
         Me.Controls.Add(Me.txtRes)
         Me.Controls.Add(Me.txtn2)
         Me.Controls.Add(Me.txtn1)
@@ -114,5 +114,5 @@ Partial Class Gestion_de_datos
     Friend WithEvents txtn1 As TextBox
     Friend WithEvents txtn2 As TextBox
     Friend WithEvents txtRes As TextBox
-    Friend WithEvents btnOperacion As Button
+    Friend WithEvents btnSuma As Button
 End Class
