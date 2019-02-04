@@ -76,7 +76,7 @@ Partial Class Gestion_de_datos
         '
         'txtRes
         '
-        Me.txtRes.Location = New System.Drawing.Point(143, 194)
+        Me.txtRes.Location = New System.Drawing.Point(143, 217)
         Me.txtRes.Name = "txtRes"
         Me.txtRes.Size = New System.Drawing.Size(100, 20)
         Me.txtRes.TabIndex = 5
